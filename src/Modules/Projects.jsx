@@ -7,24 +7,30 @@ const Projects = () => {
     return (
         <>
             <CustomNav/>
-            <Container className="mt-5">
+            <Container className="mt-2 mt-md-5">
                 {projectsList.map(proj => (
                     <Fragment key={proj.label}>
-                        <Row className="my-5 px-md-5" xs={1} md={2}>
+                        <Row className="mb-3 mb-md-5 px-md-5" xs={1} md={2}>
                             <Col>
                                 <a href={proj.src} target="_blank" rel="noopener noreferrer">
                                     <img className="img-fluid proj-image shadow" src={proj.imgSrc} alt={proj.label}/>
                                 </a>
                             </Col>
-                            <Col className="pt-2">
-                                <h3 className="font-weight-bold color-customBlue mb-0">{proj.label}</h3><br/>
+                            <Col className="pt-3 pt-md-0">
+                                <h3 className="font-weight-bold color-customBlue mb-2">{proj.label}</h3>
                                 {proj.description && <>
-                                    <span className="d-block pb-2">{proj.description}</span>
+                                    <span className="d-block pb-2" dangerouslySetInnerHTML={{__html: proj.description}}/>
                                 </>}
                                 {proj.src && <>
                                     <div className="pb-2">
                                         Link: <a href={proj.src} target="_blank"
                                                  rel="noopener noreferrer">{proj.src}</a>
+                                    </div>
+                                </>}
+                                {proj.src2 && <>
+                                    <div className="pb-2">
+                                        Link2: <a href={proj.src2} target="_blank"
+                                                 rel="noopener noreferrer">{proj.src2}</a>
                                     </div>
                                 </>}
                                 {proj.githubSrc && <>

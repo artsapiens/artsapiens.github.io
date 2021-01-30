@@ -12,8 +12,6 @@ export const showcaseSkills = [{
     rating: 60
 }];
 
-// src: 'https://reacttraining.com/images/react-router.svg'
-
 
 export const skillsList = [{
 //   label: 'HTML5',
@@ -89,27 +87,33 @@ export const projectsList = [{
     label      : 'PHP SDK',
     imgSrc     : '/projects/sdk.png',
     description: 'Stack: php 7.1, Guzzle HTTP, Money PHP',
+    src        : 'https://github.com/rarus/bonus-server-php-sdk',
     githubSrc  : 'https://github.com/rarus/bonus-server-php-sdk'
 }, {
     label      : 'Call Center monitoring system ',
     imgSrc     : "/projects/relief.png",
     src        : 'https://relef.ru/',
-    description: 'Stack: php 7.4, Laravel, Vue.js, axios'
+    description: 'Stack: php 7.4, Laravel, Asterisk, Vue.js, axios'
 }, {
     label      : 'CRM and landing page for service stations',
     imgSrc     : '/projects/dkcrm.png',
     src        : 'https://volzhsktehavto.ru/',
-    description: 'Stack: php 7.4, Laravel, Vue.js, Inertia, TailwindCSS, Bootstrap, devops'
+    description: 'Stack: php 7.4, Laravel 8, Vue.js, Inertia, TailwindCSS, Bootstrap, devops'
 }, {
     label      : 'Landing Pages for a law firm',
     imgSrc     : '/projects/carback.png',
     src        : 'https://car-back.ru',
-    description: 'Stack: php 7.4, Laravel, Scss, Bootstrap, Jquery'
+    src2       : 'https://car-back.ru/concierge',
+    description: 'Stack: php 7.4, Laravel 8, Scss, Bootstrap, Jquery'
 }, {
     label      : 'Government portal of interaction between residents and authorities',
     imgSrc     : '/projects/nashdom.jpg',
     src        : 'https://нашдом62.рф/',
     description: 'Stack: php 7.2, Vue.js, Jquery, Bulma'
+}, {
+    label      : 'Feedback service',
+    imgSrc     : '/projects/incident.png',
+    description: 'Feedback Service with different forms ans routes. Processed over 100K requests. <br><br> Stack: php 7.3, Slim micro framework, Eloquent, Guzzle HTTP, RabbitMQ, Vue.js, Jquery, scss'
 }, {
     label      : '1C-Bitrix Module for loyalty management system ',
     imgSrc     : '/projects/bitrixmodule.png',

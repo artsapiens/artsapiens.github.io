@@ -22,11 +22,11 @@ const Home = ({history}) => {
       <CustomNav />
       <div className="position-absolute" style={{height: '100vh', top: 0, bottom: 0, left: 0, right: 0, zIndex: -1}}>
         <Container className="h-100">
-          <div className="d-flex h-100">
+          <div className="d-flex h-100 mt-4 mt-md-0">
             <div className={`my-auto ${width > 760 ? 'w-50' : ''}`}>
               <div>
                 <div className="">
-                  <span className="color-customBlueLight h5 font-weight-bold">Hello !</span><br />
+                  <span className="color-customBlueLight h5 font-weight-bold">Hello!</span><br />
                   <span className="color-customBlue h1 font-weight-bold">I'm Andrey Ivlev</span><br />
                   <span className="color-customBlueLight h3">I'm a <span className="font-weight-bold">full stack</span> developer</span><br /><br />
                   <span className="color-customBlueLight h5">I specialize in developing web applications</span><br />
