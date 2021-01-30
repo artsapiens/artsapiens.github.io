@@ -113,7 +113,7 @@ export const projectsList = [{
 }, {
     label      : 'Feedback service',
     imgSrc     : '/projects/incident.png',
-    description: 'Feedback Service with different forms ans routes. Processed over 100K requests. <br><br> Stack: php 7.3, Slim micro framework, Eloquent, Guzzle HTTP, RabbitMQ, Vue.js, Jquery, scss'
+    description: 'Feedback service with different forms and routes. Processed over 100K requests. <br><br> Stack: php 7.3, Slim micro framework, Eloquent, Guzzle HTTP, RabbitMQ, Vue.js, Jquery, scss'
 }, {
     label      : '1C-Bitrix Module for loyalty management system ',
     imgSrc     : '/projects/bitrixmodule.png',

@@ -1,7 +1,7 @@
 {
   "name": "artsapiens.github.io",
   "version": "0.1.0",
-  "homepage": "https://artsapiens.github.io",
+  "homepage": "https://www.artsapiens.ru",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
