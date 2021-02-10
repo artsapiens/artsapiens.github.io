@@ -120,6 +120,11 @@ export const projectsList = [{
     src        : 'https://rarus.ru/bonus/',
     description: 'Stack: php 7.1, Bitrix Framework, Php SDK'
 }, {
+    label      : 'Plugins and modules for working with online checkout for different CMS',
+    imgSrc     : '/projects/plugins.png',
+    src        : 'https://rarus.ru/cloud/kassa-v-arendu/',
+    description: 'Stack: php 7.1, 1C-Bitrix, ModX, Joomla, PHPShop, WordPress Woocommerce, Shop-script, OpenCart, CS-Cart, Drupdal, MogutaCMS '
+}, {
     label      : 'Marketplace to buy and sell websites',
     imgSrc     : '/projects/ps.png',
     src        : 'https://prodaysite.ru/',
