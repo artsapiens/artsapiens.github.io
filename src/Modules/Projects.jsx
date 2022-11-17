@@ -19,7 +19,8 @@ const Projects = () => {
                             <Col className="pt-3 pt-md-0">
                                 <h3 className="font-weight-bold color-customBlue mb-2">{proj.label}</h3>
                                 {proj.description && <>
-                                    <span className="d-block pb-2" dangerouslySetInnerHTML={{__html: proj.description}}/>
+                                    <span className="d-block pb-2"
+                                          dangerouslySetInnerHTML={{__html: proj.description}}/>
                                 </>}
                                 {proj.src && <>
                                     <div className="pb-2">
@@ -30,7 +31,7 @@ const Projects = () => {
                                 {proj.src2 && <>
                                     <div className="pb-2">
                                         Link2: <a href={proj.src2} target="_blank"
-                                                 rel="noopener noreferrer">{proj.src2}</a>
+                                                  rel="noopener noreferrer">{proj.src2}</a>
                                     </div>
                                 </>}
                                 {proj.githubSrc && <>

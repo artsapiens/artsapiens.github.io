@@ -81,14 +81,27 @@ export const skillsList = [{
 export const projectsList = [{
     label      : 'Corporate Portal',
     imgSrc     : '/projects/rarus.png',
-    src        : 'https://rarus.ru',
-    description: 'Stack: php 7.4, Bitrix Framework, jquery, scss',
+    src        : 'https://rarus.ru/arenda-1c-oblako/',
+    description: 'Stack: php 7.4, Bitrix Framework, jquery, vue, scss',
 }, {
     label      : 'PHP SDK',
     imgSrc     : '/projects/sdk.png',
-    description: 'Stack: php 7.1, Guzzle HTTP, Money PHP',
+    description: 'Stack: php 7.2+, Guzzle HTTP, Money PHP',
     src        : 'https://github.com/rarus/bonus-server-php-sdk',
     githubSrc  : 'https://github.com/rarus/bonus-server-php-sdk'
+}, {
+    label      : 'Web app spa loyalty management system',
+    imgSrc     : "/projects/move.png",
+    src        : 'https://move.bonus-rarus.ru',
+    src2        : 'https://grey-wall.bonus-rarus.ru/',
+    description: 'Stack: Vue3, Vuex'
+}, {
+}, {
+    label      : 'iOS/Android apps',
+    imgSrc     : "/projects/drip4you.png",
+    src        : 'https://rarus.ru/bonus/',
+    src2       : 'https://rublevskiy.ru',
+    description: 'Stack: Vue3, Vuex, Capacitorjs'
 }, {
     label      : 'Call Center monitoring system ',
     imgSrc     : "/projects/relief.png",
@@ -109,7 +122,7 @@ export const projectsList = [{
     label      : 'Government portal of interaction between residents and authorities',
     imgSrc     : '/projects/nashdom.jpg',
     src        : 'https://нашдом62.рф/',
-    description: 'Stack: php 7.2, Vue.js, Jquery, Bulma'
+    description: 'Stack: php 7.4, Vue.js, Jquery, Bulma'
 }, {
     label      : 'Feedback service',
     imgSrc     : '/projects/incident.png',
@@ -118,15 +131,15 @@ export const projectsList = [{
     label      : '1C-Bitrix Module for loyalty management system ',
     imgSrc     : '/projects/bitrixmodule.png',
     src        : 'https://rarus.ru/bonus/',
-    description: 'Stack: php 7.1, Bitrix Framework, Php SDK'
+    description: 'Stack: php 7.2, Bitrix Framework, Php SDK'
 }, {
     label      : 'Plugins and modules for working with online checkout for different CMS',
     imgSrc     : '/projects/plugins.png',
     src        : 'https://rarus.ru/cloud/kassa-v-arendu/',
-    description: 'Stack: php 7.1, 1C-Bitrix, ModX, Joomla, PHPShop, WordPress Woocommerce, Shop-script, OpenCart, CS-Cart, Drupdal, MogutaCMS '
+    description: 'Stack: php 7.4, 1C-Bitrix, ModX, Joomla, PHPShop, WordPress Woocommerce, Shop-script, OpenCart, CS-Cart, Drupdal, MogutaCMS '
 }, {
     label      : 'Marketplace to buy and sell websites',
     imgSrc     : '/projects/ps.png',
     src        : 'https://prodaysite.ru/',
-    description: 'Stack: php 7.2, CodeIgniter, Bootstrap, Jquery'
+    description: 'Stack: php 7.3, CodeIgniter, Bootstrap, Jquery'
 }]
