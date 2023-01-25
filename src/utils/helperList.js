@@ -90,12 +90,21 @@ export const projectsList = [{
     src        : 'https://github.com/rarus/bonus-server-php-sdk',
     githubSrc  : 'https://github.com/rarus/bonus-server-php-sdk'
 }, {
+    label      : 'Government portal of interaction between residents and authorities',
+    imgSrc     : '/projects/or62.png',
+    src        : 'https://ор62.рф/',
+    description: 'Stack: php 7.4, Vue.js'
+}, {
     label      : 'Web app spa loyalty management system',
     imgSrc     : "/projects/move.png",
     src        : 'https://move.bonus-rarus.ru',
     src2        : 'https://grey-wall.bonus-rarus.ru/',
     description: 'Stack: Vue3, Vuex'
 }, {
+    label      : '1C-Bitrix Module for loyalty management system ',
+    imgSrc     : '/projects/bitrixmodule.png',
+    src        : 'https://rarus.ru/bonus/',
+    description: 'Stack: php 7.2, Bitrix Framework, Php SDK'
 }, {
     label      : 'iOS/Android apps',
     imgSrc     : "/projects/drip4you.png",
@@ -119,19 +128,9 @@ export const projectsList = [{
     src2       : 'https://car-back.ru/concierge',
     description: 'Stack: php 7.4, Laravel 8, Scss, Bootstrap, Jquery'
 }, {
-    label      : 'Government portal of interaction between residents and authorities',
-    imgSrc     : '/projects/nashdom.jpg',
-    src        : 'https://нашдом62.рф/',
-    description: 'Stack: php 7.4, Vue.js, Jquery, Bulma'
-}, {
     label      : 'Feedback service',
     imgSrc     : '/projects/incident.png',
     description: 'Feedback service with different forms and routes. Processed over 100K requests. <br><br> Stack: php 7.3, Slim micro framework, Eloquent, Guzzle HTTP, RabbitMQ, Vue.js, Jquery, scss'
-}, {
-    label      : '1C-Bitrix Module for loyalty management system ',
-    imgSrc     : '/projects/bitrixmodule.png',
-    src        : 'https://rarus.ru/bonus/',
-    description: 'Stack: php 7.2, Bitrix Framework, Php SDK'
 }, {
     label      : 'Plugins and modules for working with online checkout for different CMS',
     imgSrc     : '/projects/plugins.png',
