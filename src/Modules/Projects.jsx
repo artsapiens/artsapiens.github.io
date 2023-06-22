@@ -43,7 +43,7 @@ const Projects = () => {
                     </Fragment>
                 ))}
                 <div className="row text-center">
-                    <div className="col">... and much more</div>
+                    <div className="col">etc...</div>
                 </div>
             </Container>
         </>

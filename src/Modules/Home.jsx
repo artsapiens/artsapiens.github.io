@@ -42,6 +42,7 @@ const Home = ({history}) => {
                   </div>
                   <div className="">
                     <Button className="mb-2 bg-custom font-weight-bold shadow border-0" onClick={() => window.open('mailto:aaivlev@gmail.com?subject=Сообщение от работодателя', '_blank')}>Contact Me</Button>
+                    <Button className="mb-2 d-block bg-custom font-weight-bold shadow border-0" onClick={() => {window.open('https://ryazan.hh.ru/resume/cd2ddc6fff0371316d0039ed1f486b356b776f', '_blank')}}>Resume</Button>
                     <Button className="d-block bg-custom font-weight-bold shadow border-0" onClick={() => history.push('/projects')}>Portfolio</Button>
                   </div>
 
